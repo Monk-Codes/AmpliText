@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>AmpliText</title>
+</head>
+<header>
+  <div class="top">
+    <ul class="top_ul">
+      <li>Text to speech</li>
+      <li>AmpliText</li>
+      <li>Speech to text</li>
+    </ul>
+  </div>
+
+</header>
+<section>
+  <div class="mid">
+    <div class="container">
+      <button class="button" role="button" onclick="recog.start()"><span class="text">Speech to text</span><span>Click to speak</span></button>
+      <p class="result">Text Is Shown Here</p>
+      <div class="msg animate slide-in-down"></div>
+      <button class="button btn btn-success" role="button" onclick="copy()">
+        <span class="text">Copy the Text</span>
+        <span>Click to Copy!</span>
+      </button>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <ul class="footer__nav">
+    <li class="footer__item">
+      <a class="footer__link" href="#">About</a>
+    </li>
+    <li class="footer__item">
+      <a class="footer__link" href="#">Terms of Use</a>
+    </li>
+    <li class="footer__item">
+      <a class="footer__link" href="#">Privacy Policy</a>
+    </li>
+    <li class="footer__item">
+      <a class="footer__link" href="#">Contact Us</a>
+    </li>
+  </ul>
+  <p class="footer__copyright">
+    &copy; Copyright by
+    <a
+       class="footer__link twitter-link"
+       target="_blank"
+       href="https://monk-codes.github.io/PortFolio/">Monk-Codes</a>
+  </p>
+</footer>
+
+<body>
+  <script src="main.js"></script>
+</body>
+
+</html>
